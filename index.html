@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظرية فيثاغورس</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- المحتوى الرئيسي -->
+    <div class="content">
+        <section class="theory-section">
+            <h2>شرح نظرية فيثاغورس</h2>
+            <p>
+                نظرية فيثاغورس هي واحدة من أهم النظريات في الرياضيات، وبتحكي عن العلاقة بين أطوال أضلاع المثلث القائم الزاوية.
+                بتقول النظرية: "مربع طول الوتر (الضلع الأطول) بساوي مجموع مربعي طولي الضلعين الآخرين".
+            </p>
+            <p>
+                إذا كان عندنا مثلث قائم الزاوية: طول أحد الضلعين القائمين بنسميه <strong>أ</strong>، وطول الضلع القائم الثاني بنسميه <strong>ب</strong>، وطول الوتر بنسميه <strong>ج</strong>.
+            </p>
+            <p>
+                العلاقة بتكون: <br>
+                <strong>ج<sup>2</sup> = أ<sup>2</sup> + ب<sup>2</sup></strong>
+            </p>
+            <p>
+                مثلا لو كان طول أحد الضلعين 3 والطول الآخر 4، فالمعادلة بتكون كالتالي: 
+                <br>
+                <strong>ج<sup>2</sup> = 3<sup>2</sup> + 4<sup>2</sup> = 9 + 16 = 25</strong، وبالتالي <strong>ج = 5</strong>.
+            </p>
+
+            <!-- زر لتجربة الآلة الحاسبة -->
+            <button id="calculator-btn" class="action-btn">اضغط هنا حتى تجرب الآلة الحاسبة</button>
+        </section>
+
+        <!-- لوجو الواتساب وزر للتواصل -->
+        <div class="whatsapp">
+            <a href="https://wa.me/+201013835451" target="_blank">
+                <img src="whatsapp-logo.png" alt="واتساب">
+                اضغط هنا لمراسلة المبرمج.
+            </a>
+        </div>
+
+        <!-- نافذة الآلة الحاسبة المخفية -->
+        <div id="calculator" class="calculator">
+            <div class="calculator-window">
+                <h3>آلة حاسبة</h3>
+                <input type="number" id="a" placeholder="أ" />
+                <input type="number" id="b" placeholder="ب" />
+                <button id="calculate-btn">احسب الوتر</button>
+                <p id="result"></p>
+                <button id="close-calculator" class="close-btn">إغلاق الآلة الحاسبة</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
+</body>
+</html>
